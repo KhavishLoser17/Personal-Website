@@ -26,6 +26,7 @@ export default function ContactForm() {
     });
   };
 
+
   const validate = () => {
     let errors = {};
     if (!formData.name.trim()) errors.name = "Name is required.";

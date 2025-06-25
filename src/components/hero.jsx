@@ -1,5 +1,5 @@
 import { HERO } from "../constants/index.jsx"; 
-import carlImg from "../assets/carl.jpeg";
+import carlImg from "../assets/jekob.jpg";
 import {motion} from "framer-motion";
 export default function Hero() {
   

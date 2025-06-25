@@ -7,12 +7,12 @@ import {
   FaInstagram,
 } from "react-icons/fa6";
 
-import projectImage1 from "../assets/project1.jpeg";
-import projectImage2 from "../assets/project2.jpeg";
-import projectImage3 from "../assets/project3.jpeg";
-import projectImage4 from "../assets/project4.jpeg";
-import projectImage5 from "../assets/project5.jpeg";
-import projectImage6 from "../assets/project6.jpeg";
+import projectImage1 from "../assets/personal.png";
+import projectImage2 from "../assets/ecommerce.png";
+import projectImage3 from "../assets/travel.png";
+import projectImage4 from "../assets/hotel.png";
+import projectImage5 from "../assets/chatbot.png";
+import projectImage6 from "../assets/Perspective.png";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -32,7 +32,7 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const HERO = {
-  name: "Christian Ampiii",
+  name: "Jaycob Magno",
   greet: "Hello there! 👋🏻",
   description:
     "I am determined to develop my learning in the IT industry, apply my skills and contribute to the industry's growth through continuous learning and hands-on experience.",
@@ -45,47 +45,47 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
+    githubLink: "https://github.com/KhavishLoser17/Personal-Website",
   },
   {
     id: 2,
     name: "E-Commerce Platform",
     description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
+      "An e-commerce web application developed using Laravel and Tailwind Css for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
     image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
+    githubLink: "https://github.com/KhavishLoser17/ECommerce",
   },
   {
     id: 3,
-    name: "Task Management Tool",
+    name: "Travel And Tours Management",
     description:
-      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
+      "A web application using Laravel and Tailwind CSS managing Travel and tours also integrates with AI and API with a focus on competency and succession planning, as well as learning management and employee training management ",
     image: projectImage3,
-    githubLink: "https://github.com/user/task-management-tool",
+    githubLink: "https://github.com/KhavishLoser17/HR2",
   },
   {
     id: 4,
-    name: "Weather App",
+    name: "Hotel and Restaurant Dashboard",
     description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
+      "Web Application using Laravel and Tailwind CSS Hotel And Restaurant Dashboard focusing on Human Resource Management System.",
     image: projectImage4,
-    githubLink: "https://github.com/user/weather-app",
+    githubLink: "https://github.com/KhavishLoser17/Hotel-and-Resto",
   },
   {
     id: 5,
-    name: "Blog Platform",
+    name: "Chatbot AI",
     description:
-      "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
+      "Using Laravel integrates with Gemini AI",
     image: projectImage5,
-    githubLink: "https://github.com/user/blog-platform",
+    githubLink: "https://github.com/KhavishLoser17/Gemini-Chatbot",
   },
   {
     id: 6,
-    name: "Chat Application",
+    name: "Some of my Perspective",
     description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
+      "I've been helping my aunt, a civil engineer, Using SketchUp and Lumion to create a perspective design for their home or business construction.",
     image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
+    githubLink: "https://github.com/KhavishLoser17/Perspective-Designs",
   },
 ];
 

@@ -28,7 +28,7 @@ export default function Projects() {
               className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
 
-            {/* Overlay Content */}
+           
             <motion.div
             initial={{opacity: 0}}
             whileHover={{opacity: 1}}
